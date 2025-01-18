@@ -1,5 +1,6 @@
 
 from django import forms 
+# Import the model that we need to work with
 
 from .models import Topic, Entry
 
