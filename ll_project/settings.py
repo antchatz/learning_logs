@@ -158,5 +158,5 @@ if config.is_valid_platform():
                 'PASSWORD': db_settings['password'],
                 'HOST': db_settings['host'],
                 'PORT': db_settings['port'],
-    },
-}
+            },
+        }
