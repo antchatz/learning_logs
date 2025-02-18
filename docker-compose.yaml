@@ -1,0 +1,10 @@
+name: Learning Logs
+
+services:
+  app:
+    image: llogs-docker
+    container_name: ll_logs
+    ports:
+      - "8001:8000"
+    volumes:
+      - .:/app

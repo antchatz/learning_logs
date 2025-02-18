@@ -1,0 +1,8 @@
+.env
+venv/
+Dockerfile
+migrations/
+__pycache__/
+db.sqlite3
+.platform/
+.git/
